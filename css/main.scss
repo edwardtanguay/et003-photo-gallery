@@ -45,6 +45,21 @@ body {
 			gap: $flex-gap;
 		}
 
+		div img:nth-child(2) {
+			border-radius: 15px;
+			box-shadow: 3px 3px 13px blue;
+		}
+
+		div img:nth-child(3) {
+			border-radius: 15px;
+			box-shadow: 3px 3px 13px yellow;
+		}
+
+		div img:nth-child(4) {
+			border-radius: 15px;
+			box-shadow: 3px 3px 13px red;
+		}
+
 		img {
 			width: 15vw; 
 		}
