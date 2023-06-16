@@ -14,4 +14,14 @@ body h1 {
 }
 body p {
   color: rgb(31, 55, 190);
+}
+body .photos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: start;
+}
+body .photos img {
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */

@@ -18,4 +18,20 @@ body {
 	p {
 		color: $main-color;
 	}
+
+	.photos {
+		// display: grid;
+		// grid-template-columns: repeat(5, 1fr);
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+		flex-wrap: wrap;
+		align-items:start;
+
+		img {
+			width: 200px;
+			
+		}
+	}
+
 }
