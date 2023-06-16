@@ -1,3 +1,4 @@
+@use "mixins.scss";
 @import "variables.scss";
 
 * {
@@ -45,19 +46,21 @@ body {
 			gap: $flex-gap;
 		}
 
+		div img:nth-child(1) {
+			@include mixins.shadowBox(red);
+		}
+
 		div img:nth-child(2) {
 			border-radius: 15px;
-			box-shadow: 3px 3px 13px blue;
+			@include mixins.shadowBox(blue);
 		}
 
 		div img:nth-child(3) {
-			border-radius: 15px;
-			box-shadow: 3px 3px 13px yellow;
+			@include mixins.shadowBox(yellow);
 		}
 
 		div img:nth-child(4) {
-			border-radius: 15px;
-			box-shadow: 3px 3px 13px red;
+			@include mixins.shadowBox(brown);
 		}
 
 		img {

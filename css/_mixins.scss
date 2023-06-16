@@ -1,0 +1,8 @@
+@mixin shadowBox($shadowColor: white) {
+	border-radius: 15px;
+	box-shadow: 3px 3px 13px $shadowColor;
+	&:hover {
+		opacity: .8;
+		border: 10px solid darken($shadowColor, 30%);
+	}
+}

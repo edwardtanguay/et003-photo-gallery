@@ -27,17 +27,38 @@ body .photos div {
   flex-direction: column;
   gap: 1rem;
 }
+body .photos div img:nth-child(1) {
+  border-radius: 15px;
+  box-shadow: 3px 3px 13px red;
+}
+body .photos div img:nth-child(1):hover {
+  opacity: 0.8;
+  border: 10px solid #660000;
+}
 body .photos div img:nth-child(2) {
   border-radius: 15px;
+  border-radius: 15px;
   box-shadow: 3px 3px 13px blue;
+}
+body .photos div img:nth-child(2):hover {
+  opacity: 0.8;
+  border: 10px solid #000066;
 }
 body .photos div img:nth-child(3) {
   border-radius: 15px;
   box-shadow: 3px 3px 13px yellow;
 }
+body .photos div img:nth-child(3):hover {
+  opacity: 0.8;
+  border: 10px solid #666600;
+}
 body .photos div img:nth-child(4) {
   border-radius: 15px;
-  box-shadow: 3px 3px 13px red;
+  box-shadow: 3px 3px 13px brown;
+}
+body .photos div img:nth-child(4):hover {
+  opacity: 0.8;
+  border: 10px solid #2b0b0b;
 }
 body .photos img {
   width: 15vw;
